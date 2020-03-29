@@ -79,7 +79,7 @@ const AppMain = () => {
         <Route
           exact
           path="/"
-          render={() => <Redirect to="/dashboards/basic" />}
+          render={() => <Redirect to="/dashboards/brain" />}
         />
         <ToastContainer />
       </Fragment>

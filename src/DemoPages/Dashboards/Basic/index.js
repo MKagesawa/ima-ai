@@ -362,7 +362,7 @@ export default class AnalyticsDashboard1 extends Component {
                                     <div className="widget-content-wrapper">
                                       <div className="widget-content-left mr-3">
                                         <div className="widget-numbers fsize-3 text-muted">
-                                          23%
+                                          13%
                                         </div>
                                       </div>
                                       <div className="widget-content-right">
@@ -387,12 +387,12 @@ export default class AnalyticsDashboard1 extends Component {
                                     <div className="widget-content-wrapper">
                                       <div className="widget-content-left mr-3">
                                         <div className="widget-numbers fsize-3 text-muted">
-                                          43%
+                                          73%
                                         </div>
                                       </div>
                                       <div className="widget-content-right">
                                         <div className="text-muted opacity-6">
-                                          Likelihood of Superhuman Mutation
+                                          People with possible of Superhuman Mutation
                                         </div>
                                       </div>
                                     </div>
@@ -415,7 +415,7 @@ export default class AnalyticsDashboard1 extends Component {
                                     <div className="widget-content-wrapper">
                                       <div className="widget-content-left mr-3">
                                         <div className="widget-numbers fsize-3 text-muted">
-                                          12%
+                                          82%
                                         </div>
                                       </div>
                                       <div className="widget-content-right">
@@ -511,7 +511,7 @@ export default class AnalyticsDashboard1 extends Component {
                             </div>
                             <div className="widget-numbers">5.82k</div>
                             <div className="widget-subheading">
-                              Preemptive Arrest Using AI
+                              Preemptive Arrests Using AI
                             </div>
                             <div className="widget-description text-danger">
                               <FontAwesomeIcon icon={faAngleDown} />
