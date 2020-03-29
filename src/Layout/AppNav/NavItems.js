@@ -1,8 +1,8 @@
 export const MainNav = [
     {
         icon: 'pe-7s-rocket',
-        label: 'Dashboard Example',
-        to: '#/dashboards/basic',
+        label: 'Big Brother Brain (3B)',
+        to: '#/dashboards/brain',
     },
 ];
 export const ComponentsNav = [
