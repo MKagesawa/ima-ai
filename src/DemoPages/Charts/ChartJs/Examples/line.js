@@ -5,7 +5,7 @@ const data = {
   labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'Your Data',
       fill: false,
       lineTension: 0.1,
       backgroundColor: '#ed0f51',

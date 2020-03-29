@@ -1,7 +1,6 @@
 import React, {Fragment} from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import LineExample from '../line';
-import LineExample2 from '../line2';
 import BarExample from '../bar';
 import HorizontalBarExample from '../horizontalBar';
 import MixExample from '../mix';
@@ -27,7 +26,7 @@ export default class ChartJsLinesBars extends React.Component {
                         <Col lg="6">
                             <Card className="main-card mb-3">
                                 <CardBody>
-                                    <CardTitle>Line Chart</CardTitle>
+                                    <CardTitle>Your Blood Pressure</CardTitle>
                                     <LineExample/>
                                 </CardBody>
                             </Card>
@@ -35,7 +34,7 @@ export default class ChartJsLinesBars extends React.Component {
                         <Col lg="6">
                             <Card className="main-card mb-3">
                                 <CardBody>
-                                    <CardTitle>Animated Line Chart</CardTitle>
+                                    <CardTitle>Monitoring (Real-time)</CardTitle>
                                     <MixExample/>
                                 </CardBody>
                             </Card>
@@ -43,15 +42,7 @@ export default class ChartJsLinesBars extends React.Component {
                         <Col lg="6">
                             <Card className="main-card mb-3">
                                 <CardBody>
-                                    <CardTitle>Area Chart</CardTitle>
-                                    <LineExample2/>
-                                </CardBody>
-                            </Card>
-                        </Col>
-                        <Col lg="6">
-                            <Card className="main-card mb-3">
-                                <CardBody>
-                                    <CardTitle>Bar Chart</CardTitle>
+                                    <CardTitle>Your Insurance Premium</CardTitle>
                                     <BarExample/>
                                 </CardBody>
                             </Card>
@@ -59,7 +50,7 @@ export default class ChartJsLinesBars extends React.Component {
                         <Col lg="6">
                             <Card className="main-card mb-3">
                                 <CardBody>
-                                    <CardTitle>Horizontal Bar Chart</CardTitle>
+                                    <CardTitle>Your Big Brother Health Score</CardTitle>
                                     <HorizontalBarExample/>
                                 </CardBody>
                             </Card>

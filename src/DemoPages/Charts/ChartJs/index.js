@@ -10,11 +10,11 @@ import ChartJsLinesBars from './Examples/LinesBars';
 
 const tabsContent = [
     {
-        title: 'Circular Charts',
+        title: 'Employability Monitor',
         content: <ChartJsCircular/>
     },
     {
-        title: 'Lines & Bars Charts',
+        title: 'Health Monitor',
         content: <ChartJsLinesBars/>
     },
 ];
@@ -33,8 +33,8 @@ export default class ChartJSExamples extends Component {
         return (
             <Fragment>
                 <PageTitle
-                    heading="ChartJS"
-                    subheading="Huge selection of charts created with the React ChartJS Plugin"
+                    heading="Your Personal Dashboard"
+                    subheading="Your Information here are used anonymously to build predicative model for national health and labour skills tracking. We promised they are not used unfairly to discriminate you for job screening or health insurance screening."
                     icon="pe-7s-bandaid icon-gradient bg-amy-crisp"
                 />
                 <Tabs tabsWrapperClass="body-tabs body-tabs-layout" transform={false} showInkBar={true} items={getTabs()}/>

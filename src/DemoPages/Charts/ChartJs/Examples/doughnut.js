@@ -3,9 +3,9 @@ import {Doughnut} from 'react-chartjs-2';
 
 const data = {
     labels: [
-        'Cars',
-        'Trains',
-        'Airplanes'
+        'Management',
+        'Sales',
+        'Administration Work'
     ],
     datasets: [{
         data: [300, 50, 100],

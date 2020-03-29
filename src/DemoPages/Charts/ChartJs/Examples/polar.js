@@ -20,11 +20,11 @@ const data = {
     label: 'My dataset' // for legend
   }],
   labels: [
-    'Red',
-    'Green',
-    'Yellow',
-    'Grey',
-    'Blue'
+    'HTML',
+    'CSS',
+    'Python',
+    'JavaScript',
+    'Go'
   ]
 };
 

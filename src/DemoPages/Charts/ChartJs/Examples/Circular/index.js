@@ -1,7 +1,6 @@
 import React, {Fragment} from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import DoughnutExample from '../doughnut';
-import PieExample from '../pie';
 import DynamicDoughnutExample from '../dynamicDoughnut';
 import RadarExample from '../radar';
 import PolarExample from '../polar';
@@ -27,7 +26,7 @@ export default class ChartJsCircular extends React.Component {
                         <Col lg="6">
                             <Card className="main-card mb-3">
                                 <CardBody>
-                                    <CardTitle>Doughnut</CardTitle>
+                                    <CardTitle>Your Overall Skills</CardTitle>
                                     <DoughnutExample/>
                                 </CardBody>
                             </Card>
@@ -35,7 +34,7 @@ export default class ChartJsCircular extends React.Component {
                         <Col lg="6">
                             <Card className="main-card mb-3">
                                 <CardBody>
-                                    <CardTitle>Dynamic Doughnut Chart</CardTitle>
+                                    <CardTitle>Labour Market Wanted Skillsets (Real-time)</CardTitle>
                                     <DynamicDoughnutExample/>
                                 </CardBody>
                             </Card>
@@ -43,7 +42,7 @@ export default class ChartJsCircular extends React.Component {
                         <Col lg="6">
                             <Card className="main-card mb-3">
                                 <CardBody>
-                                    <CardTitle>Radar Chart</CardTitle>
+                                    <CardTitle>Candidate Score</CardTitle>
                                     <RadarExample/>
                                 </CardBody>
                             </Card>
@@ -51,16 +50,8 @@ export default class ChartJsCircular extends React.Component {
                         <Col lg="6">
                             <Card className="main-card mb-3">
                                 <CardBody>
-                                    <CardTitle>Polar Chart</CardTitle>
+                                    <CardTitle>Programming Skills</CardTitle>
                                     <PolarExample/>
-                                </CardBody>
-                            </Card>
-                        </Col>
-                        <Col lg="6">
-                            <Card className="main-card mb-3">
-                                <CardBody>
-                                    <CardTitle>Pie Chart</CardTitle>
-                                    <PieExample/>
                                 </CardBody>
                             </Card>
                         </Col>

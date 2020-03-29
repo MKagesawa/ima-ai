@@ -110,9 +110,9 @@ export const WidgetsNav = [
     },
 ];
 export const ChartsNav = [
-    {
-        icon: 'pe-7s-graph2',
-        label: 'ChartJS',
-        to: '#/charts/chartjs',
-    },
-];
+         {
+           icon: "pe-7s-graph2",
+           label: "User Charts",
+           to: "#/charts/userCharts"
+         }
+       ];

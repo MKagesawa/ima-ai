@@ -2,10 +2,10 @@ import React from 'react';
 import {Line} from 'react-chartjs-2';
 
 const initialState = {
-    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+    labels: ['Heart Rate', 'Sleep Cycle', 'Blood Sugar', 'Cholesterol Level', 'Dopamine', 'Adrenaline', 'Hydration'],
     datasets: [
         {
-            label: 'My First dataset',
+            label: 'Your Data',
             fill: false,
             lineTension: 0.1,
             backgroundColor: 'rgba(75,192,192,0.4)',

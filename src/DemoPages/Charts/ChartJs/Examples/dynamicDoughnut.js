@@ -7,9 +7,9 @@ function getRandomInt (min, max) {
 
 const getState = () => ({
     labels: [
-        'Cars',
-        'Trains',
-        'Airplanes'
+        'Programming',
+        'Marketing',
+        'Business'
     ],
     datasets: [{
         data: [getRandomInt(50, 200), getRandomInt(100, 150), getRandomInt(150, 250)],
