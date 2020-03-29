@@ -6,7 +6,7 @@ class AppFooter extends React.Component {
 
         return (
             <Fragment>
-                <div className="app-footer">
+                {/* <div className="app-footer">
                     <div className="app-footer__inner">
                         <div className="app-footer-left">
                             <ul className="nav">
@@ -40,7 +40,7 @@ class AppFooter extends React.Component {
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </Fragment>
         )}
 }
