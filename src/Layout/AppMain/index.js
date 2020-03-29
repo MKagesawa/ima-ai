@@ -8,11 +8,7 @@ import {
 const Dashboards = lazy(() => import('../../DemoPages/Dashboards'));
 
 const Widgets = lazy(() => import('../../DemoPages/Widgets'));
-const Elements = lazy(() => import('../../DemoPages/Elements'));
-const Components = lazy(() => import('../../DemoPages/Components'));
 const Charts = lazy(() => import('../../DemoPages/Charts'));
-const Forms = lazy(() => import('../../DemoPages/Forms'));
-const Tables = lazy(() => import('../../DemoPages/Tables'));
 
 const AppMain = () => {
 
@@ -20,37 +16,7 @@ const AppMain = () => {
       <Fragment>
         {/* Components */}
 
-        <Suspense
-          fallback={
-            <div className="loader-container">
-              <div className="loader-container-inner">
-                <h6 className="mt-5">
-                  Loading
-                  {/* <small>Because this is a demonstration we load at once all the Components examples. This wouldn't happen in a real live app!</small> */}
-                </h6>
-              </div>
-            </div>
-          }
-        >
-          <Route path="/components" component={Components} />
-        </Suspense>
-
         {/* Forms */}
-
-        <Suspense
-          fallback={
-            <div className="loader-container">
-              <div className="loader-container-inner">
-                <h6 className="mt-5">
-                  Loading
-                  {/* <small>Because this is a demonstration we load at once all the Forms examples. This wouldn't happen in a real live app!</small> */}
-                </h6>
-              </div>
-            </div>
-          }
-        >
-          <Route path="/forms" component={Forms} />
-        </Suspense>
 
         {/* Charts */}
 
@@ -74,37 +40,7 @@ const AppMain = () => {
 
         {/* Tables */}
 
-        <Suspense
-          fallback={
-            <div className="loader-container">
-              <div className="loader-container-inner">
-                <h6 className="mt-5">
-                  Loading
-                  {/* <small>Because this is a demonstration we load at once all the Tables examples. This wouldn't happen in a real live app!</small> */}
-                </h6>
-              </div>
-            </div>
-          }
-        >
-          <Route path="/tables" component={Tables} />
-        </Suspense>
-
         {/* Elements */}
-
-        <Suspense
-          fallback={
-            <div className="loader-container">
-              <div className="loader-container-inner">
-                <h6 className="mt-3">
-                  Loading
-                  {/* <small>Because this is a demonstration we load at once all the Elements examples. This wouldn't happen in a real live app!</small> */}
-                </h6>
-              </div>
-            </div>
-          }
-        >
-          <Route path="/elements" component={Elements} />
-        </Suspense>
 
         {/* Dashboard Widgets */}
 
