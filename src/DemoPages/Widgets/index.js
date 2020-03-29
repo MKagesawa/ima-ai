@@ -20,7 +20,7 @@ const Widgets = ({match}) => (
 
                     {/* Widgets */}
 
-                    <Route path={`${match.url}/dashboard-boxes`} component={WidgetsChartBoxes}/>
+                    <Route path={`${match.url}/map`} component={WidgetsChartBoxes}/>
                 </div>
                 <AppFooter/>
             </div>

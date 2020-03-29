@@ -120,7 +120,7 @@ const AppMain = () => {
             </div>
           }
         >
-          <Route path="/widgets" component={Widgets} />
+          <Route path="/ai" component={Widgets} />
         </Suspense>
 
         {/* Dashboards */}
